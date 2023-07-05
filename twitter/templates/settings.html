@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Settings - Twitter Clone</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Settings</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="settings.html">Settings</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2>Account Settings</h2>
+    <form>
+      <h3>Profile</h3>
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Enter your name">
+      <label for="username">Username:</label>
+      <input type="text" id="username" placeholder="Enter your username">
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Enter your email">
+
+      <h3>Password</h3>
+      <label for="current-password">Current Password:</label>
+      <input type="password" id="current-password" placeholder="Enter your current password">
+      <label for="new-password">New Password:</label>
+      <input type="password" id="new-password" placeholder="Enter your new password">
+      <label for="confirm-password">Confirm Password:</label>
+      <input type="password" id="confirm-password" placeholder="Confirm your new password">
+
+      <h3>Notification Settings</h3>
+      <label for="email-notifications">Email Notifications:</label>
+      <input type="checkbox" id="email-notifications">
+      <label for="push-notifications">Push Notifications:</label>
+      <input type="checkbox" id="push-notifications">
+
+      <button type="submit" class="btn">Save Changes</button>
+    </form>
+  </main>
+  <footer>
+    <p>&copy; 2023 Twitter Clone. All rights reserved.</p>
+  </footer>
+</body>
+</html>
